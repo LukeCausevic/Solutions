@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9188E2041882C94100066968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9188E2031882C94100066968 /* Foundation.framework */; };
+		9188E2061882C94100066968 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9188E2051882C94100066968 /* CoreGraphics.framework */; };
+		9188E2081882C94100066968 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9188E2071882C94100066968 /* UIKit.framework */; };
+		9188E20E1882C94100066968 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9188E20C1882C94100066968 /* InfoPlist.strings */; };
+		9188E2101882C94100066968 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9188E20F1882C94100066968 /* main.m */; };
+		9188E2141882C94100066968 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9188E2131882C94100066968 /* AppDelegate.m */; };
+		9188E2171882C94100066968 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9188E2151882C94100066968 /* Main_iPhone.storyboard */; };
+		9188E21A1882C94100066968 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9188E2181882C94100066968 /* Main_iPad.storyboard */; };
+		9188E21D1882C94100066968 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9188E21C1882C94100066968 /* ViewController.m */; };
+		9188E21F1882C94100066968 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9188E21E1882C94100066968 /* Images.xcassets */; };
+		9188E2261882C94100066968 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9188E2251882C94100066968 /* XCTest.framework */; };
+		9188E2271882C94100066968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9188E2031882C94100066968 /* Foundation.framework */; };
+		9188E2281882C94100066968 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9188E2071882C94100066968 /* UIKit.framework */; };
+		9188E2301882C94100066968 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9188E22E1882C94100066968 /* InfoPlist.strings */; };
+		9188E2321882C94100066968 /* nikkiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9188E2311882C94100066968 /* nikkiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9188E2291882C94100066968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9188E1F81882C94100066968 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9188E1FF1882C94100066968;
+			remoteInfo = nikki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9188E2001882C94100066968 /* nikki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nikki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9188E2031882C94100066968 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9188E2051882C94100066968 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9188E2071882C94100066968 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9188E20B1882C94100066968 /* nikki-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nikki-Info.plist"; sourceTree = "<group>"; };
+		9188E20D1882C94100066968 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9188E20F1882C94100066968 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9188E2111882C94100066968 /* nikki-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nikki-Prefix.pch"; sourceTree = "<group>"; };
+		9188E2121882C94100066968 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9188E2131882C94100066968 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9188E2161882C94100066968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9188E2191882C94100066968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9188E21B1882C94100066968 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9188E21C1882C94100066968 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9188E21E1882C94100066968 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9188E2241882C94100066968 /* nikkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nikkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9188E2251882C94100066968 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9188E22D1882C94100066968 /* nikkiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nikkiTests-Info.plist"; sourceTree = "<group>"; };
+		9188E22F1882C94100066968 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9188E2311882C94100066968 /* nikkiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nikkiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9188E1FD1882C94100066968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9188E2061882C94100066968 /* CoreGraphics.framework in Frameworks */,
+				9188E2081882C94100066968 /* UIKit.framework in Frameworks */,
+				9188E2041882C94100066968 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9188E2211882C94100066968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9188E2261882C94100066968 /* XCTest.framework in Frameworks */,
+				9188E2281882C94100066968 /* UIKit.framework in Frameworks */,
+				9188E2271882C94100066968 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9188E1F71882C94100066968 = {
+			isa = PBXGroup;
+			children = (
+				9188E2091882C94100066968 /* nikki */,
+				9188E22B1882C94100066968 /* nikkiTests */,
+				9188E2021882C94100066968 /* Frameworks */,
+				9188E2011882C94100066968 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9188E2011882C94100066968 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9188E2001882C94100066968 /* nikki.app */,
+				9188E2241882C94100066968 /* nikkiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9188E2021882C94100066968 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9188E2031882C94100066968 /* Foundation.framework */,
+				9188E2051882C94100066968 /* CoreGraphics.framework */,
+				9188E2071882C94100066968 /* UIKit.framework */,
+				9188E2251882C94100066968 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9188E2091882C94100066968 /* nikki */ = {
+			isa = PBXGroup;
+			children = (
+				9188E2121882C94100066968 /* AppDelegate.h */,
+				9188E2131882C94100066968 /* AppDelegate.m */,
+				9188E2151882C94100066968 /* Main_iPhone.storyboard */,
+				9188E2181882C94100066968 /* Main_iPad.storyboard */,
+				9188E21B1882C94100066968 /* ViewController.h */,
+				9188E21C1882C94100066968 /* ViewController.m */,
+				9188E21E1882C94100066968 /* Images.xcassets */,
+				9188E20A1882C94100066968 /* Supporting Files */,
+			);
+			path = nikki;
+			sourceTree = "<group>";
+		};
+		9188E20A1882C94100066968 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9188E20B1882C94100066968 /* nikki-Info.plist */,
+				9188E20C1882C94100066968 /* InfoPlist.strings */,
+				9188E20F1882C94100066968 /* main.m */,
+				9188E2111882C94100066968 /* nikki-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9188E22B1882C94100066968 /* nikkiTests */ = {
+			isa = PBXGroup;
+			children = (
+				9188E2311882C94100066968 /* nikkiTests.m */,
+				9188E22C1882C94100066968 /* Supporting Files */,
+			);
+			path = nikkiTests;
+			sourceTree = "<group>";
+		};
+		9188E22C1882C94100066968 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9188E22D1882C94100066968 /* nikkiTests-Info.plist */,
+				9188E22E1882C94100066968 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9188E1FF1882C94100066968 /* nikki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9188E2351882C94100066968 /* Build configuration list for PBXNativeTarget "nikki" */;
+			buildPhases = (
+				9188E1FC1882C94100066968 /* Sources */,
+				9188E1FD1882C94100066968 /* Frameworks */,
+				9188E1FE1882C94100066968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nikki;
+			productName = nikki;
+			productReference = 9188E2001882C94100066968 /* nikki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9188E2231882C94100066968 /* nikkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9188E2381882C94100066968 /* Build configuration list for PBXNativeTarget "nikkiTests" */;
+			buildPhases = (
+				9188E2201882C94100066968 /* Sources */,
+				9188E2211882C94100066968 /* Frameworks */,
+				9188E2221882C94100066968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9188E22A1882C94100066968 /* PBXTargetDependency */,
+			);
+			name = nikkiTests;
+			productName = nikkiTests;
+			productReference = 9188E2241882C94100066968 /* nikkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9188E1F81882C94100066968 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Luke Causevic";
+				TargetAttributes = {
+					9188E2231882C94100066968 = {
+						TestTargetID = 9188E1FF1882C94100066968;
+					};
+				};
+			};
+			buildConfigurationList = 9188E1FB1882C94100066968 /* Build configuration list for PBXProject "nikki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9188E1F71882C94100066968;
+			productRefGroup = 9188E2011882C94100066968 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9188E1FF1882C94100066968 /* nikki */,
+				9188E2231882C94100066968 /* nikkiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9188E1FE1882C94100066968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9188E21A1882C94100066968 /* Main_iPad.storyboard in Resources */,
+				9188E21F1882C94100066968 /* Images.xcassets in Resources */,
+				9188E2171882C94100066968 /* Main_iPhone.storyboard in Resources */,
+				9188E20E1882C94100066968 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9188E2221882C94100066968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9188E2301882C94100066968 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9188E1FC1882C94100066968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9188E21D1882C94100066968 /* ViewController.m in Sources */,
+				9188E2141882C94100066968 /* AppDelegate.m in Sources */,
+				9188E2101882C94100066968 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9188E2201882C94100066968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9188E2321882C94100066968 /* nikkiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9188E22A1882C94100066968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9188E1FF1882C94100066968 /* nikki */;
+			targetProxy = 9188E2291882C94100066968 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9188E20C1882C94100066968 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9188E20D1882C94100066968 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9188E2151882C94100066968 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9188E2161882C94100066968 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9188E2181882C94100066968 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9188E2191882C94100066968 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9188E22E1882C94100066968 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9188E22F1882C94100066968 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9188E2331882C94100066968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9188E2341882C94100066968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9188E2361882C94100066968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nikki/nikki-Prefix.pch";
+				INFOPLIST_FILE = "nikki/nikki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9188E2371882C94100066968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nikki/nikki-Prefix.pch";
+				INFOPLIST_FILE = "nikki/nikki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9188E2391882C94100066968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/nikki.app/nikki";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nikki/nikki-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "nikkiTests/nikkiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9188E23A1882C94100066968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/nikki.app/nikki";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nikki/nikki-Prefix.pch";
+				INFOPLIST_FILE = "nikkiTests/nikkiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9188E1FB1882C94100066968 /* Build configuration list for PBXProject "nikki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9188E2331882C94100066968 /* Debug */,
+				9188E2341882C94100066968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9188E2351882C94100066968 /* Build configuration list for PBXNativeTarget "nikki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9188E2361882C94100066968 /* Debug */,
+				9188E2371882C94100066968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9188E2381882C94100066968 /* Build configuration list for PBXNativeTarget "nikkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9188E2391882C94100066968 /* Debug */,
+				9188E23A1882C94100066968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9188E1F81882C94100066968 /* Project object */;
+}
